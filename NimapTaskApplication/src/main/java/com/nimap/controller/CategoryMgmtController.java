@@ -67,7 +67,6 @@ public class CategoryMgmtController {
 		return ResponseEntity.ok(updatedCategory);
 		
 	}
-	
 
 	// for delete category by id wise
 	@DeleteMapping("{category_id}")
@@ -78,3 +77,4 @@ public class CategoryMgmtController {
 	}
 
 }
+

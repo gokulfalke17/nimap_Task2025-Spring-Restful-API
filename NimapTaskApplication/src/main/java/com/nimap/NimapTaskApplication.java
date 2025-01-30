@@ -9,5 +9,4 @@ public class NimapTaskApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NimapTaskApplication.class, args);
 	}
-
 }

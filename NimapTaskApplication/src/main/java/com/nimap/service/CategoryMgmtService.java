@@ -37,7 +37,7 @@ public class CategoryMgmtService {
 		Category category = findCategoryByIdWise(category_id);
 		category.setCategory_name(newCategoryDetails.getCategory_name());
 		return categoryRepo.save(category);
-	}
+	}    
 
 	// for delete categery by id wise
 	public void deleteCategeryByIdWise(Integer categery_id) {
@@ -46,3 +46,5 @@ public class CategoryMgmtService {
 	}
 
 }
+
+
